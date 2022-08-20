@@ -34,7 +34,7 @@ li{
 }
 .logo--text{
     color: rgb(88, 86, 139);
-    transition: all 300ms ease;
+    transition: all 500ms ease;
     text-decoration: none;
     font-style: bold;
 }
@@ -97,12 +97,20 @@ color: rgb(118, 0, 214);
 }
 
 /* HEADER */
+.header--row{
+    margin-top: 120px;
+    display: flex;
+}
 .header--container{
-    width: 100%;
+    width: 40%;
     max-width: 1300px;
     margin: 0 auto;
     display: flex;
     align-items: center;
+}
+.header--container2{
+    width: 60%;
+    display: flex;
 }
 .header--description{
     display: flex;
@@ -111,16 +119,79 @@ color: rgb(118, 0, 214);
 h1{
     font-size: 45px;
     color: black;
-    text-align: center;
-
+}
+.main--para{
+    padding-top: 40px;
+    font-size: 18px;
+    padding-bottom: 40px;
 }
 .header--img--wrapper{
-    padding: 20px;
-    z-index: 2;
+   width: 100%;
 }
 img{
     width: 100%;
     height: 100%;
-    max-height: 90vh;
-    
+    max-height: 60vh;
+    padding-top: 20px;
+}
+.purple{
+    color: rgb(90, 8, 167);
+}
+.form--wrapper{
+    border: solid rgb(233, 233, 233);
+    border-radius: 9999px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    width: 445px;
+    height: 73px;
+    transition: all 500ms ease;
+}
+.form--button{
+    margin-top: 10px;
+    margin-left: 45px;
+    padding: 10px 40px;
+    margin-bottom: 15px;
+    background-color: rgb(100, 44, 255);
+    border: solid  rgb(94, 38, 250);
+    color: white;
+    border-radius: 99px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: all 500ms ease;
+}
+.form--email{
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    padding-left: 10px;
+    font-size: 15px;
+    margin-top: 25px;
+}
+.form--email--description{
+    display: flex;
+    margin: 0 auto;
+    padding-left: 30px;
+}
+.form--wrapper:hover{
+    border: solid rgb(199, 214, 226);
+}
+.form--button:hover{
+    background-color: rgb(65, 65, 236);
+    border: solid blue;
+}
+.header--tc{
+    padding-top: 80px;
+}
+.header--tc--para{
+    font-weight: 700;
+    color: rgb(190, 205, 252);
+    letter-spacing: 0.05em;
+    font-size: 13px;
+}
+.header--tc--img{
+    padding-top: 20px;
+    opacity: 0.5;
+    width: 400px;
 }
