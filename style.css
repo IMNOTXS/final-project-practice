@@ -222,11 +222,12 @@ img{
     line-height: 30px;
     color:rgb(137, 134, 146) ;
     font-size: 15px;
+    
 }
 .highlight--sub{
     display: flex;
     font-display: column;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     font-size: 22px;
     color: rgb(65, 65, 129);
 }
@@ -234,6 +235,13 @@ img{
     padding-right: 30px;
     margin-top: 12px;
     color: rgb(91, 4, 161);
+    
+    
+}
+.highlight--img2{
+    border: 2px solid rgb(243, 243, 243);
+    border-radius: 99px;
+    padding: 19px;
 }
 .header2--title{
 display: flex;
